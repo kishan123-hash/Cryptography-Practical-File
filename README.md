@@ -1,444 +1,199 @@
-\# 🔐 CryptoLab
+# CryptoLab
+### Cryptography and Network Security — Practical Implementation
 
-\### Cryptography \& Network Security | Practical Experiments
+**A collection of 14 practical experiments completed as part of the Cryptography and Network Security coursework.**
 
+---
 
+## About the Project
 
-<p align="center">
+CryptoLab is an academic project developed to explore the fundamental concepts and practical applications of cryptography and network security.
 
-&#x20; <img src="https://img.shields.io/badge/Domain-Cybersecurity-blue?style=for-the-badge" />
+The repository consists of 14 experiments covering classical encryption techniques, modern cryptographic algorithms, hashing, digital signatures, digital certificates, network traffic analysis, password security, and secure authentication.
 
-&#x20; <img src="https://img.shields.io/badge/Focus-Cryptography-purple?style=for-the-badge" />
+Each experiment focuses on understanding the underlying concepts through implementation, execution, and observation using industry-relevant tools and technologies.
 
-&#x20; <img src="https://img.shields.io/badge/Experiments-14-success?style=for-the-badge" />
+The project is intended to strengthen practical knowledge of information security and develop a better understanding of how cryptographic techniques protect data and communication systems.
 
-&#x20; <img src="https://img.shields.io/badge/Status-Learning%20Project-orange?style=for-the-badge" />
+## Project Objectives
 
-</p>
+- Study classical encryption techniques and their applications.
+- Understand symmetric and asymmetric cryptographic algorithms.
+- Implement and analyze RSA and Diffie-Hellman algorithms.
+- Perform data hashing and digital signature verification.
+- Generate and examine X.509 digital certificates.
+- Understand HTTPS communication and TLS handshakes.
+- Analyze encrypted and unencrypted network traffic.
+- Identify secure and insecure communication protocols.
+- Explore password security and auditing techniques.
+- Configure SSH key-based authentication between Linux systems.
 
+## Practical Experiments
 
+The following table provides an overview of the experiments included in this repository.
 
-\---
-
-
-
-\## 👨‍💻 About This Repository
-
-
-
-Welcome to \*\*CryptoLab\*\* — a practical learning repository dedicated to Cryptography and Network Security.
-
-
-
-This repository contains \*\*14 hands-on experiments\*\* covering classical encryption techniques, modern cryptographic algorithms, hashing, digital signatures, certificates, network traffic analysis, password auditing, and secure authentication.
-
-
-
-The purpose of this project is to understand important security concepts through practical implementation, experimentation, and analysis using tools such as CrypTool, OpenSSL, Python, Wireshark, and Kali Linux.
-
-
-
-> \*\*Learn by doing. Understand by analyzing. Build with security in mind.\*\*
-
-
-
-\---
-
-
-
-\## 🎯 Objectives
-
-
-
-\- Understand the fundamentals of cryptography and network security.
-
-\- Implement classical and modern encryption algorithms.
-
-\- Explore symmetric and asymmetric encryption techniques.
-
-\- Generate and manage RSA keys.
-
-\- Perform hashing and digital signature verification.
-
-\- Understand digital certificates and authentication.
-
-\- Analyze secure and insecure network communication.
-
-\- Examine encrypted VPN traffic using Wireshark.
-
-\- Perform password security auditing.
-
-\- Configure SSH key-based authentication between Linux systems.
-
-
-
-\---
-
-
-
-\## 🧪 Practical Experiments
-
-
-
-| No. | Experiment | Tools / Technologies |
-
+| No. | Experiment Title | Tools / Technologies |
 |:---:|---|---|
+| 01 | Implementation of Caesar, Vigenère and Rail Fence Ciphers | CrypTool |
+| 02 | Frequency Analysis of Classical Ciphers | CrypTool 2 |
+| 03 | Comparative Study of DES and AES Encryption | CrypTool 2 |
+| 04 | RSA Key Generation and File Encryption/Decryption | OpenSSL |
+| 05 | SHA-256 Hashing and RSA Digital Signature Verification | OpenSSL |
+| 06 | Generation and Inspection of Self-Signed X.509 Certificates | OpenSSL |
+| 07 | Implementation of RSA and Diffie-Hellman Algorithms | Python |
+| 08 | AES Encryption and SHA-256 Hashing | Python |
+| 09 | Password Hashing With and Without Salt | Python |
+| 10 | HTTPS Traffic Capture and TLS Handshake Analysis | Wireshark |
+| 11 | Analysis of Encrypted VPN Traffic | Wireshark, OpenVPN |
+| 12 | Identification of Secure and Insecure Communication Protocols | Wireshark |
+| 13 | Password Auditing and Password Strength Evaluation | Kali Linux, John the Ripper |
+| 14 | SSH/RSA Key Generation and Passwordless Authentication | Kali Linux, OpenSSH |
 
-| 01 | Implement Caesar, Vigenère, and Rail Fence Ciphers | CrypTool |
+## Technologies and Tools
 
-| 02 | Perform Frequency Analysis on Classical Ciphers | CrypTool 2 |
+The experiments use the following programming languages, security tools, and platforms.
 
-| 03 | Compare DES and AES Encryption | CrypTool 2 |
-
-| 04 | Generate RSA Keys and Perform File Encryption/Decryption | OpenSSL |
-
-| 05 | Perform SHA-256 Hashing and RSA Digital Signature Verification | OpenSSL |
-
-| 06 | Create and Inspect Self-Signed X.509 Digital Certificates | OpenSSL |
-
-| 07 | Implement RSA and Diffie-Hellman Algorithms | Python |
-
-| 08 | Implement AES Encryption and SHA-256 Hashing | Python |
-
-| 09 | Perform Password Hashing With and Without Salt | Python |
-
-| 10 | Capture HTTPS Traffic and Analyze TLS Handshake | Wireshark |
-
-| 11 | Capture and Analyze Encrypted VPN Traffic | Wireshark, OpenVPN |
-
-| 12 | Identify Secure and Insecure Communication Protocols | Wireshark |
-
-| 13 | Perform Password Auditing and Evaluate Password Strength | Kali Linux, John the Ripper |
-
-| 14 | Generate SSH/RSA Keys and Configure Passwordless Authentication | Kali Linux, OpenSSH |
-
-
-
-\---
-
-
-
-\## 🛠️ Technology Stack
-
-
-
-| Category | Tools \& Technologies |
-
+| Technology | Purpose |
 |---|---|
-
-| Cryptography Learning | CrypTool, CrypTool 2 |
-
-| Programming Language | Python |
-
-| Cryptographic Toolkit | OpenSSL |
-
-| Network Analysis | Wireshark |
-
-| VPN Technology | OpenVPN |
-
-| Security Testing | John the Ripper |
-
-| Operating System | Kali Linux, Windows |
-
-| Secure Authentication | SSH, RSA, OpenSSH |
-
-| Cryptographic Concepts | AES, DES, RSA, SHA-256, Diffie-Hellman, TLS |
-
-
-
-\---
-
-
-
-\## 🔑 Key Areas of Exploration
-
-
-
-\### 1. Classical \& Modern Cryptography
-
-\- Caesar Cipher
-
-\- Vigenère Cipher
-
-\- Rail Fence Cipher
-
-\- DES and AES Encryption
-
-\- RSA Encryption
-
-\- Diffie-Hellman Key Exchange
-
-
-
-\### 2. Hashing \& Digital Security
-
-\- SHA-256 Hashing
-
-\- Password Hashing
-
-\- Salt Generation
-
-\- RSA Digital Signatures
-
-\- X.509 Digital Certificates
-
-
-
-\### 3. Network \& Communication Security
-
-\- HTTPS and TLS Handshake Analysis
-
-\- VPN Encryption and Traffic Inspection
-
-\- Secure vs. Insecure Protocol Identification
-
-\- Wireshark Packet Analysis
-
-
-
-\### 4. System \& Authentication Security
-
-\- Password Auditing with John the Ripper
-
-\- SSH Key Generation
-
-\- RSA Public and Private Keys
-
-\- Passwordless SSH Authentication
-
-
-
-\---
-
-
-
-\## ⚙️ Getting Started
-
-
-
-\### Prerequisites
-
-
-
-Install the tools required for the respective experiments:
-
-
-
-\- Python 3.x
-
-\- CrypTool / CrypTool 2
-
-\- OpenSSL
-
-\- Wireshark
-
-\- OpenVPN
-
-\- Kali Linux
-
-\- John the Ripper
-
-\- OpenSSH
-
-
-
-\### Clone This Repository
-
-
-
-```bash
-
-git clone https://github.com/kishan123-hash/Cryptography-Practical-File.git
-
-```
-
-
-
-\### Navigate to the Project
-
-
-
-```bash
-
-cd Cryptography-Practical-File
-
-```
-
-
-
-\### Verify Installed Tools
-
-
-
-```bash
-
-python --version
-
-openssl version
-
-ssh -V
-
-```
-
-
-
-Open the required experiment folder and follow its instructions to perform the practical.
-
-
-
-\---
-
-
-
-\## 📁 Repository Structure
-
-
+| Python | Implementation of cryptographic algorithms |
+| CrypTool / CrypTool 2 | Classical and modern cryptography experiments |
+| OpenSSL | Encryption, hashing, RSA keys and certificates |
+| Wireshark | Network packet capture and protocol analysis |
+| OpenVPN | VPN configuration and encrypted communication |
+| Kali Linux | Security testing and Linux-based experiments |
+| John the Ripper | Password auditing |
+| OpenSSH | Secure remote authentication |
+| Windows / Linux | Experiment execution environments |
+
+## Concepts Covered
+
+### 1. Cryptographic Algorithms
+- Classical substitution and transposition ciphers
+- Symmetric encryption: DES and AES
+- Asymmetric encryption: RSA
+- Diffie-Hellman key exchange
+
+### 2. Data Integrity and Authentication
+- SHA-256 hashing
+- Password hashing and salting
+- RSA digital signatures
+- X.509 digital certificates
+
+### 3. Network Security
+- HTTPS communication
+- TLS handshake analysis
+- VPN encryption
+- Secure and insecure protocols
+- Network packet inspection
+
+### 4. System Security
+- Password auditing
+- SSH key generation
+- Public-key authentication
+- Passwordless remote login
+
+## Repository Structure
 
 ```text
-
 Cryptography-Practical-File/
-
 │
-
-├── Experiment-01/
-
-├── Experiment-02/
-
-├── Experiment-03/
-
-├── Experiment-04/
-
-├── Experiment-05/
-
-├── Experiment-06/
-
-├── Experiment-07/
-
-├── Experiment-08/
-
-├── Experiment-09/
-
-├── Experiment-10/
-
-├── Experiment-11/
-
-├── Experiment-12/
-
-├── Experiment-13/
-
-├── Experiment-14/
-
+├── Experiment1/
+├── Experiment2/
+├── Experiment3/
+├── Experiment4/
+├── Experiment5/
+├── Experiment6/
+├── Experiment7/
+├── Experiment8/
+├── Experiment9/
+├── Experiment10/
+├── Experiment11/
+├── Experiment12/
+├── Experiment13/
+├── Experiment14/
 │
-
 └── README.md
-
 ```
 
+Each experiment folder contains the corresponding practical work and its related files.
 
+## Getting Started
 
-\*The folder names shown above are illustrative. Actual folder names may differ.\*
+### Prerequisites
 
+Install the required tools depending on the experiment you want to execute:
 
+- Python 3.x
+- CrypTool / CrypTool 2
+- OpenSSL
+- Wireshark
+- OpenVPN
+- Kali Linux
+- John the Ripper
+- OpenSSH
 
-\---
+### Clone the Repository
 
+```bash
+git clone https://github.com/kishan123-hash/Cryptography-Practical-File.git
+```
 
+### Navigate to the Project Directory
 
-\## 📚 Learning Approach
+```bash
+cd Cryptography-Practical-File
+```
 
+### Check Tool Installation
 
+```bash
+python --version
+openssl version
+ssh -V
+```
 
-Each practical experiment focuses on understanding a security concept through implementation and observation.
+Open the respective experiment directory and follow the instructions and files provided for that practical.
 
+## Learning Outcomes
 
+Through these experiments, the project provides practical exposure to:
 
-\*\*Explore → Implement → Execute → Analyze → Learn\*\*
+- Encryption and decryption techniques.
+- Cryptographic key generation and management.
+- Data integrity and authentication mechanisms.
+- Secure network communication.
+- Packet capture and traffic analysis.
+- Password security assessment.
+- Linux-based authentication mechanisms.
 
+## Future Scope
 
+The concepts explored in this repository provide a foundation for further study in areas such as:
 
-The experiments build practical knowledge of encryption, authentication, data integrity, network security, and secure communication.
+- Ethical Hacking and Penetration Testing
+- Network Security and Monitoring
+- Web Application Security
+- OWASP Top 10
+- Digital Forensics
+- Vulnerability Assessment
+- Security Automation using Python
 
+## Disclaimer
 
+This repository has been created for academic and educational purposes as part of practical coursework.
 
-\---
+All experiments involving network analysis, password auditing, and security testing should only be performed on systems and networks owned by the user or where proper authorization has been obtained.
 
+## Author
 
+**Kishan Sharma**
 
-\## 🚀 Future Scope
+B.Tech — Computer Science and Engineering (AI & ML)
 
+Cryptography and Network Security — Practical Coursework
 
+GitHub: [kishan123-hash](https://github.com/kishan123-hash)
 
-Areas for further learning and exploration:
+---
 
-
-
-\- Linux Security Fundamentals
-
-\- Network Security and Monitoring
-
-\- Ethical Hacking Fundamentals
-
-\- Web Application Security
-
-\- OWASP Top 10
-
-\- Vulnerability Assessment
-
-\- Penetration Testing Fundamentals
-
-\- Python Security Automation
-
-\- Digital Forensics
-
-
-
-\---
-
-
-
-\## ⚠️ Disclaimer
-
-
-
-This repository is intended strictly for educational and academic purposes.
-
-
-
-All security testing, password auditing, packet capture, and authentication experiments must be performed only on systems and networks that you own or have explicit permission to test.
-
-
-
-The author does not support unauthorized access or malicious use of security tools.
-
-
-
-\---
-
-
-
-\## 👨‍🎓 Author
-
-
-
-\*\*Kishan Sharma\*\*
-
-
-
-Cryptography \& Network Security Practical Work
-
-
-
-GitHub: \[@kishan123-hash](https://github.com/kishan123-hash)
-
-
-
-\---
-
-
-
-<p align="center">
-
-&#x20; <b>🔐 CryptoLab — Explore Cryptography. Analyze Security. Learn by Building.</b>
-
-</p>
-
+*CryptoLab | Learning Cryptography Through Practical Implementation.*
